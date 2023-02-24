@@ -41,7 +41,7 @@ public class FoodController {
 
 		return null;
 	}
-	
+
 	@GetMapping()
 	public List<FoodDetailsResponse> getFoods() {
 
