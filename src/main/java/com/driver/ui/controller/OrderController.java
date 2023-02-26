@@ -17,33 +17,33 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/orders")
 public class OrderController {
-	@GetMapping(path="/{id}")
-	public OrderDetailsResponse getOrder(@PathVariable String id) throws Exception{
+    @GetMapping(path="/{id}")
+    public OrderDetailsResponse getOrder(@PathVariable String id) throws Exception{
 
-		return null;
-	}
+        return null;
+    }
 
-	@PostMapping()
-	public OrderDetailsResponse createOrder(@RequestBody OrderDetailsRequestModel order) {
+    @PostMapping()
+    public OrderDetailsResponse createOrder(@RequestBody OrderDetailsRequestModel order) {
 
-		return null;
-	}
+        return null;
+    }
 
-	@PutMapping(path="/{id}")
-	public OrderDetailsResponse updateOrder(@PathVariable String id, @RequestBody OrderDetailsRequestModel order) throws Exception{
+    @PutMapping(path="/{id}")
+    public OrderDetailsResponse updateOrder(@PathVariable String id, @RequestBody OrderDetailsRequestModel order) throws Exception{
 
-		return null;
-	}
+        return null;
+    }
 
-	@DeleteMapping(path = "/{id}")
-	public OperationStatusModel deleteOrder(@PathVariable String id) throws Exception {
+    @DeleteMapping(path = "/{id}")
+    public OperationStatusModel deleteOrder(@PathVariable String id) throws Exception {
 
-		return null;
-	}
+        return null;
+    }
 
-	@GetMapping()
-	public List<OrderDetailsResponse> getOrders() {
+    @GetMapping()
+    public List<OrderDetailsResponse> getOrders() {
 
-		return null;
-	}
+        return null;
+    }
 }
